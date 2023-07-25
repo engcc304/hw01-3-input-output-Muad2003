@@ -15,8 +15,8 @@
 */
 #include<stdio.h>
 int main(){
-    char FirstName ;
-    char LastName ;
+    char FirstName[50] ;
+    char LastName[50] ;
 
     printf( "Enter Your Name : " ) ; 
     scanf( "%s", &FirstName ) ;
@@ -25,6 +25,6 @@ int main(){
     scanf( "%s", &LastName ) ;
 
     printf("%s %s TC, RMUTL, Chiang Mai, Thailand" ,FirstName,LastName ) ;
-    
+
     return 0 ;
 }
