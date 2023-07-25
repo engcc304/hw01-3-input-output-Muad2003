@@ -24,7 +24,7 @@ int main(){
     printf("Enter Your Last Name : ") ;
     scanf("%s", LastName);
 
-    printf("%s %s TC, RMUTL, Chiang Mai, Thailand", FirstName, LastName) ;
+    printf("%s %ss TC, RMUTL, Chiang Mai, Thailand", FirstName, LastName) ;
 
 
     return 0 ;
