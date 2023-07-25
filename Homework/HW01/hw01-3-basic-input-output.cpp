@@ -19,10 +19,10 @@ int main(){
     char LastName[50] ;
 
     printf( "Enter Your Name : " ) ; 
-    scanf( "%s", &FirstName ) ;
+    scanf( "%s", FirstName ) ;
 
     printf( "Enter Your lastname : " ) ;
-    scanf( "%s", &LastName ) ;
+    scanf( "%s", LastName ) ;
 
     printf("%s %s TC, RMUTL, Chiang Mai, Thailand" ,FirstName,LastName ) ;
 
