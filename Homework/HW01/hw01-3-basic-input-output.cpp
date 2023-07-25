@@ -13,3 +13,19 @@
     Output:
         ABD DEFs TC, RMUTL, Chiang Mai, Thailand
 */
+#include<stdio.h>
+int main(){
+    char FirstName ;
+    char LastName ;
+
+    printf("Enter Your First Name : ") ;
+    scanf("%s", FirstName);
+
+    printf("Enter Your Last Name : ") ;
+    scanf("%s", LastName);
+
+    printf("%s %ss TC, RMUTL, Chiang Mai, Thailand", FirstName, LastName) ;
+
+
+    return 0 ;
+}
